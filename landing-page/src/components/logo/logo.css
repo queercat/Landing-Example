@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.logo {
+    width: auto;
+    font-family: 'Playfair Display';
+    font-size: 5vmin;
+
+    padding: 0px 20px;
+}
+
+.logo-element {
+    display: inline;
+}
+
+.paw {
+    width: 5vmin;
+    padding: 5px;
+}
