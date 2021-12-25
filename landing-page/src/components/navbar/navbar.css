@@ -11,19 +11,22 @@
 .navbar-items-container {
     display: flex;
     text-align: center;
+
+    margin-top: auto;
 }
 
 .navbar-item {
     font-family: 'Raleway';
-    text-decoration: underline;
-    text-decoration-color: rgba(0, 0, 0, 0);
     transition: text-decoration-color .5s;
+
+    font-size: 2vmin;
 
     padding-right: 5vmin;
     padding-left: 5vmin;
 }
 
 .navbar-item:hover {
+    text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 1);
 }
 

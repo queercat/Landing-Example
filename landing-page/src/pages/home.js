@@ -4,10 +4,6 @@ import "./home.css"
 function Home() {
     return (
         <div className="home-container">
-            <video className="video" autoPlay muted>
-                <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4"/>
-            </video>
-
             <div className="hero-text">
                 <h1 className="hero-header">It's time to find your new best friend.</h1>
             </div>

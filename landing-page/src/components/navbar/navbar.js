@@ -15,7 +15,6 @@ function Navbar() {
             <div className="navbar-items-container">
                 {["About", "Register"].map(item => Item(item, "/"+item))}
             </div>
-            <Logo/>
         </div>
     )
 }
