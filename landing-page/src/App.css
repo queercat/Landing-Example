@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap');
+/* Raleway */
+
 body {
   margin: 0px;
 }
 
-.center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.app {
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+* {
+  box-sizing: border-box;
+ }
+
+a {
+  margin: 0;
 }
